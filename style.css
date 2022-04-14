@@ -1,0 +1,50 @@
+.body{
+
+    font-family: 'righteous', sans-serif;
+    display: inline-block;
+}
+
+.icon{
+
+
+    width: 120px;
+    height: 120px;
+    
+}
+
+.card{
+    width: 120px;
+    height: 120px;
+    position: relative;
+
+
+}
+
+.card_back, .card_front{
+
+    width: 100%;
+    height: 100%; 
+    position: absolute;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px cornflowerblue;
+
+}
+
+.card_front{
+
+    background-color: rgb(61, 61, 124);
+
+}
+
+.card_back{
+    background-color: rgb(46, 167, 197);
+    font-size: 30px;
+    color: rgb(61, 61, 124);
+    font-style: italic;
+    
+    
+
+}
